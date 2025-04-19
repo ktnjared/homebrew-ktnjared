@@ -6,5 +6,5 @@ cask 'daruma' do
     name 'Daruma'
     homepage 'https://kadomaru.app/daruma/'
 
-    app "daruma/Daruma.app"
+    app "Daruma.app"
 end
