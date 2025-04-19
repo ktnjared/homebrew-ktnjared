@@ -4,7 +4,7 @@ cask "font-adwaita-mono-nf" do
 
     url "https://github.com/ktnjared/Adwaita-Mono-Nerd-Font/releases/download/v#{version}/AdwaitaMonoNerdFont.zip"
     name "Adwaita Mono Nerd Font"
-    desc "GNOMA Adwaita Font merged with complete Nerd Font glyphs"
+    desc "GNOME Adwaita Font merged with complete Nerd Font glyphs"
     homepage "https://github.com/ktnjared/Adwaita-Mono-Nerd-Font/"
 
     livecheck do
