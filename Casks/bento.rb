@@ -4,6 +4,7 @@ cask 'bento' do
 
     url 'https://delivery.kadomaru.app/bento/Bento.dmg'
     name 'Bento'
+    desc 'Drag and drop any folder with an .iconset extension onto the Bentō app icon to assemble an .icns file in that same directory.'
     homepage 'https://kadomaru.app/bento/'
 
     app "Bento.app"

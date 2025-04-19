@@ -4,6 +4,7 @@ cask 'daruma' do
 
     url 'https://delivery.kadomaru.app/daruma/Daruma.dmg'
     name 'Daruma'
+    desc 'Complete your goals more efficiently with the Daruma method'
     homepage 'https://kadomaru.app/daruma/'
 
     app "Daruma.app"

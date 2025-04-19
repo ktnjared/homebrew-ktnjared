@@ -4,6 +4,7 @@ cask 'tulip' do
 
     url 'https://delivery.kadomaru.app/tulip/Tulip.dmg'
     name 'Tulip'
+    desc 'Opening this app will generate a universally unique identifier and copy it to your clipboard. The app immediately closes.'
     homepage 'https://kadomaru.app/tulip/'
 
     app "Tulip.app"
