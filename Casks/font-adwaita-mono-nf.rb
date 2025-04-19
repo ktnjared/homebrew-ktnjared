@@ -12,8 +12,8 @@ cask "font-adwaita-mono-nf" do
         strategy :github_latest
     end
 
-    font "AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Bold.ttf"
-    font "AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-BoldItalic.ttf"
-    font "AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Italic.ttf"
-    font "AdwaitaMonoNerdFont/AdwaitaMonoNerdFont-Regular.ttf"
+    font "AdwaitaMonoNerdFont-Bold.ttf"
+    font "AdwaitaMonoNerdFont-BoldItalic.ttf"
+    font "AdwaitaMonoNerdFont-Italic.ttf"
+    font "AdwaitaMonoNerdFont-Regular.ttf"
 end
