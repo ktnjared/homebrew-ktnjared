@@ -6,5 +6,5 @@ cask 'bento' do
     name 'Bento'
     homepage 'https://kadomaru.app/bento/'
 
-    app "bento#{version.before_comma.no_dots}/Bento.app"
+    app "bento/Bento.app"
 end
