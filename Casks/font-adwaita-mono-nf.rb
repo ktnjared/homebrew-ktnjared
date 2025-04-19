@@ -6,7 +6,6 @@ cask "font-adwaita-mono-nf" do
     name "Adwaita Mono Nerd Font"
     desc "GNOMA Adwaita Font merged with complete Nerd Font glyphs"
     homepage "https://github.com/ktnjared/Adwaita-Mono-Nerd-Font/"
-    license "OFL"
 
     livecheck do
         url :url
