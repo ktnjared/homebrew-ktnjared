@@ -1,0 +1,12 @@
+cask "CASKNAME" do
+    version "CASKVERSION"
+    sha256  "CASKSHA256"
+
+    url "CASKURLTOGETFILE"
+    name "CASKFANCYNAME"
+    desc "CASKDESCRIPTION"
+    homepage "CASKSITEURL"
+
+    # app "CASKDOTAPPNAMEINFILEDOWNLOADED"
+    # font "CASKFONTNAME"
+end
