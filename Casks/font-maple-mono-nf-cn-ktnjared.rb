@@ -2,7 +2,7 @@ cask "font-maple-mono-nf-cn-ktnjared" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/ktnjared/font-maple-mono-nf-cn-ktnjared/releases/latest/download/MapleMono-NF-CN"
+  url "https://github.com/ktnjared/font-maple-mono-nf-cn-ktnjared/releases/latest/download/MapleMono-NF-CN.zip"
   name "Maple Mono (ktnjared remix)"
   desc "Maple Mono font variant by ktnjared. Includes Nerd Font (-NF) and Chinese/Japanese glyphs (-CN)"
   homepage "https://github.com/ktnjared/font-maple-mono-nf-cn-ktnjared"
