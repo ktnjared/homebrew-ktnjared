@@ -1,4 +1,4 @@
-cask "maple-font-jared" do
+cask "font-maple-mono-nf-cn-ktnjared" do
   version :latest
   sha256 :no_check
 
