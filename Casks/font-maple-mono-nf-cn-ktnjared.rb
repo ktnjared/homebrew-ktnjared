@@ -30,4 +30,3 @@ cask "font-maple-mono-nf-cn-ktnjared" do
     Installed to ~/Library/Fonts and available system-wide.
   EOS
 end
-end
