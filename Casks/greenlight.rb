@@ -1,12 +1,27 @@
 cask "greenlight" do
-    version "2.3.2"
-    sha256  "e4b84bd0efbce6edacfd3e81a17c634da827674a7f18e3fc72fc2880e8167c29"
+  version :latest
+  sha256 :no_check
 
-    url "https://github.com/unknownskl/greenlight/releases/download/v#{version}/Greenlight-#{version}-universal.dmg"
-    name "Greenlight"
-    desc "Greenlight is an open-source client for xCloud and Xbox home streaming made in Typescript."
-    homepage "https://github.com/unknownskl/greenlight"
+  url "https://github.com/unknownskl/greenlight/releases/latest/download/Greenlight-universal.dmg",
+      verified: "github.com/unknownskl/greenlight/"
+  name "Greenlight"
+  desc "Open-source client for xCloud and Xbox home streaming"
+  homepage "https://github.com/unknownskl/greenlight"
 
-    app "Greenlight.app"
-    # font "CASKFONTNAME"
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  depends_on macos: ">= :big_sur"
+
+  zap trash: [
+    "~/Library/Application Support/Greenlight",
+    "~/Library/Preferences/com.unknownskl.greenlight.plist",
+    "~/Library/Caches/com.unknownskl.greenlight",
+    "~/Library/Logs/Greenlight",
+    "~/Library/Saved Application State/com.unknownskl.greenlight.savedState",
+  ]
+
+  app "Greenlight.app"
 end

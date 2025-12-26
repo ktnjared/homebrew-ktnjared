@@ -8,6 +8,11 @@ cask "font-maple-mono-nf-cn-ktnjared" do
   desc "Customized Maple Mono font with Nerd Font and Simplified Chinese support"
   homepage "https://github.com/ktnjared/font-maple-mono-nf-cn-ktnjared"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   font "MapleMono-NFMono-CN-Bold.ttf"
   font "MapleMono-NFMono-CN-BoldItalic.ttf"
   font "MapleMono-NFMono-CN-ExtraBold.ttf"
