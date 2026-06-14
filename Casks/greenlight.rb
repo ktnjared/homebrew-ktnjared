@@ -13,8 +13,6 @@ cask "greenlight" do
     strategy :github_latest
   end
 
-  depends_on macos: ":big_sur"
-
   zap trash: [
     "~/Library/Application Support/Greenlight",
     "~/Library/Preferences/com.unknownskl.greenlight.plist",
